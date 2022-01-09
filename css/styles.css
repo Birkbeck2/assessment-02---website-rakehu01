@@ -1,0 +1,324 @@
+/* Body Tag style: Changed Background colour */
+body {
+background-color: #ededed;
+}
+
+/* Header Tag style: Set all font in Header to Arial */
+header {
+font-family: Arial, sans-serif;
+}
+
+/* Footer Tag style: Set Background to Black */
+footer {
+background-color: black;
+}
+
+/* Navigation Container Style: Width is set to 100% with all text aligned center */
+nav {
+margin: auto;
+width: 100%;
+text-align: center;
+padding-right: 45px;
+}
+
+/* Containers within Nav: Set to inline flex so they are position horizontally */
+nav ul li {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-size: 12pt;
+margin: auto;
+width: 180px;
+height: 50px;
+letter-spacing: 5px;
+font-weight: lighter;
+transition: all 0.3s linear;
+}
+
+/* List Style: Uses font from Parant Div, Text decoration set to none to remove bullets */
+ul li a {
+color: black;
+text-decoration: none;
+}
+
+/* Background set to change to white when hovered over */
+nav ul li:hover {
+background-color: white;
+}
+
+/* fits child containers to parent container by the oter edge including any border */
+* {box-sizing:border-box}
+
+/* Header Image positioned at the top of every page, set to inline, relative, and it floats left meaning the nav bar sits directly under it with no gap */
+.headimg {
+position: relative;
+display: inline-flex;
+float: left;
+overflow: hidden;
+}
+
+/* Container Style for First Bodyy Image: set to 1200px Max width, centered with -15px on the top so its sits closer to the nav bar */
+.First {
+max-width: 1200px;
+position: relative;
+vertical-align: top;
+justify-content: center;
+margin: auto;
+margin-top: -15px;
+}
+
+/* Top Image within container style: */
+#TopImage {
+}
+
+/* Caption position below Top Image, text position, center, line height set to same as height to position vertically centered */
+.caption {
+max-width: 1200px;
+height: 100px;
+line-height: 100px;
+background-color: black;
+margin: auto;
+text-align: center;
+margin-top: -5px;
+color: white;
+font-size: 25pt;
+font-family: sans-serif;
+letter-spacing: 3pt;
+font-weight: bold;
+}
+
+/* Caption Just for Gallery */
+#caption {
+max-width: 1200px;
+height: 100px;
+line-height: 100px;
+background-color: black;
+margin: auto;
+text-align: center;
+margin-top: -15px;
+margin-bottom: 25px;
+color: white;
+font-size: 25pt;
+font-family: sans-serif;
+letter-spacing: 3pt;
+font-weight: bold;
+}
+
+/* Container for Icons Style: display set to Flex, flex-wrap set to wrap, all content set to justify center */
+.IconContainer {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 40px;
+}
+
+/* Icon Names Style: Aligned center, font weight only affects second word of each, first word weight and colour defined in html */
+#IconName{
+  height: 30px;
+  padding: 0 0px;
+  font-size: 14pt;
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 1pt;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+/* Container for personal information style: display set to flex, flex-wrap set to wrap to wrap content within container, content set to center */
+.Character {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 25px; 
+}
+
+/* Skill set Container for Skill list and Bar graphics: Flex set to 100% for flexible items in container */
+.skillset {
+flex: 100%;
+justify-content: center;
+flex-wrap: wrap;
+padding-top: 30px;
+padding-bottom: 30px;
+max-width: 100%;
+margin: auto;
+}
+
+/* List of Skills */
+#skills {
+flex: 50%;
+width: 100%;
+vertical-align: middle;
+margin: auto;
+line-height: 20px;
+text-align: right;
+padding-right: 20px;
+margin-top: 5px;
+font-size: 13pt;
+font-family: sans-serif;
+letter-spacing: 1pt;
+font-weight: normal;
+list-style-type: none;
+}
+
+/* Span: Bar depicting level of proficiency, inline-flex, aligns next to text */
+span#bar {
+  width: 50%;
+  display: inline-flex;
+  margin-left: 20px;
+  height: 10px;
+  overflow-wrap: normal;
+}
+
+/* Flexible paragraph */
+#bio{
+height: auto;
+flex: 100%;
+max-width: 100%;
+margin: auto;
+text-align: justify;
+font-size: 13pt;
+font-family: sans-serif;
+letter-spacing: 1pt;
+font-weight: lighter;
+line-height: 28.5px;
+}
+
+/* Container for columns: display set to flex, justify-content set to center, flex-wrap set to flex, keeps images within ordered groups  */
+.main {
+  margin: auto;
+  max-width: 1216px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: -17px;
+}
+
+/* class: Column style: width set to 25% giving 4 even columns, padding set to 4px left and right */
+.column {
+  margin-top: -8px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+/* Image properties within the columns: set to vertical align middle, width set to 100% so the image width fills the column width  */
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Container class within footer: Width set to 1200px to match webpage, display set to block */
+.FooterStyle {
+margin: auto;
+max-width: 1200px;
+height: 220px;
+display: block;
+flex-wrap: wrap;
+padding: 40px;
+margin-top: 30px;
+}
+
+/* Ross Logo style: Displayed as inline-block so its paralel to Linkedin logo */
+#rosslogo {
+width: 35%;
+margin: auto;
+display: inline-block;
+justify-content: center;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Linkedin Logo */
+#linklogo {
+width: 140px;
+margin: auto;
+margin-top: 5px;
+display: inline-block;
+float: right;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Solid Line Style */
+hr {
+border-color: white;
+margin: auto;
+display: inline-block;
+float: right;
+margin-top: -7px;
+}
+
+/* Contact Info */
+#FooterInfo {
+height: 20px;
+color: white;
+padding: 0 4px;
+font-size: 12pt;
+font-family: sans-serif;
+text-decoration: none;
+text-align: left;
+letter-spacing: 1pt;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+font-weight: normal;
+}
+
+#FooterInfo a {
+color: white;
+text-decoration: none;
+}
+
+/* Changes Layout to max width of 900px */
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+nav ul li{
+  width: 110px;
+  font-size: 70%;
+}
+hr {
+  display: none;
+}
+
+#rosslogo{
+  width: 250px;
+}
+.caption {
+  font-size: 18pt;
+}
+
+#caption {
+  font-size: 18pt;
+}
+  
+
+#skills{
+  font-size: 8pt;
+}
+span#bar {
+  height: 5px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  span#bar{
+    height: 3px;
+  }
+]
+
+
+
